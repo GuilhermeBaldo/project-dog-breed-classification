@@ -2,8 +2,6 @@
 
 This project consists of using convolutional neural networks (CNNs) to produce an algorithm composed of a pipeline of CNNs. That algorithm identifies if an image provided by the user contains a person, a dog or neither. In the case of a dog, the algorithm responds with the dog breed. In the case of a person the algorithm responds with the dog breed the person in the picture most resembles. Finally in the case of neither a dog nor a person in the image the algorithm will respond with invalid input. 
 
-![project overview](images/diagram.png?raw=true)
-
 ## Project Instructions
 
 ### Instructions
