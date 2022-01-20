@@ -2,7 +2,7 @@
 
 This project consists of using convolutional neural networks (CNNs) to produce an algorithm composed of a pipeline of CNNs. That algorithm identifies if an image provided by the user contains a person, a dog or neither. In the case of a dog, the algorithm responds with the dog breed. In the case of a person the algorithm responds with the dog breed the person in the picture most resembles. Finally in the case of neither a dog nor a person in the image the algorithm will respond with invalid input. 
 
-![project overview](https://github.com/GuilhermeBaldo/project-dog-breed-classification/images/main/diagram.png?raw=true)
+![project overview](images/diagram.png?raw=true)
 
 ## Project Instructions
 
@@ -11,8 +11,8 @@ This project consists of using convolutional neural networks (CNNs) to produce a
 1. Clone the repository and navigate to the downloaded folder.
 	
 	```	
-		git clone https://github.com/udacity/deep-learning-v2-pytorch.git
-		cd deep-learning-v2-pytorch/project-dog-classification
+		git clone https://github.com/GuilhermeBaldo/project-dog-breed-classification.git
+		cd project-dog-breed-classification
 	```
 	
 2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `dogImages/`.  The `dogImages/` folder should contain 133 folders, each corresponding to a different dog breed.
